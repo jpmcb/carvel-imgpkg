@@ -156,7 +156,7 @@ jobs:
           AUTHOR_NAME: "k8slt"
           AUTHOR_EMAIL: "klt@groups.vmware.com"
           REPOSITORY: "vmware-tanzu/carvel-release-scripts"
-          BRANCH: "imgpkg-homebrew"
+          BRANCH: "main"
           FORCE: true
           GITHUB_TOKEN: ${{ secrets.CARVEL_RELEASE_SCRIPTS_TOKEN }}
           GITHUB_DEPLOY_PRIVATE_KEY: ${{ secrets.CARVEL_RELEASE_SCRIPTS_DEPLOY_PRIVATE_KEY }}
