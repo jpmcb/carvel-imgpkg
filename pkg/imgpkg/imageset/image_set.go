@@ -84,6 +84,7 @@ func (i ImageSet) Export(foundImages *UnprocessedImageRefs, preloadedImages *Pro
 		return nil, fmt.Errorf("Collecting packaging metadata: %s", err)
 	}
 
+	//TODO: clean up
 	if preloadedImages != nil {
 		for _, img := range preloadedImages.All() {
 			ref, err := regname.NewDigest(img.DigestRef)
